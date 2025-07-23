@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table tr td {
+    @apply py-3 px-6 text-center font-semibold border border-gray-300;
+}
+
+.card {
+    @apply bg-white rounded-lg shadow-md p-4 h-auto;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasa cuci sofa</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="bg-white px-4 py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <img src="../image/logo.png" alt="Logo" class="h-12 w-auto" />
+        <div class="hidden md:flex space-x-4">
+          <a href="index.html" class="block text-black hover:text-blue-700 px-4 py-2"
+            >Beranda</a
+          >
+          <a href="service.html" class="block text-black hover:text-blue-700 px-4 py-2"
+            >Layanan</a
+          >
+          <a href="Harga.html" class="block text-black hover:text-blue-700 px-4 py-2"
+            >Harga</a
+          >
+          <button
+            class="bg-orange-400 text-white items-center px-4 py-3 rounded"
+          >
+            Contact
+          </button>
+        </div>
+        <div class="md:hidden">
+          <button
+            id="menu-toggle"
+            class="text-black hover:text-gray-50 focus:outline-none"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+       <div id="mobile-menu" class="md:hidden hidden px-4 pt-2 pb-4 space-y-2">
+        <a
+          href="index.html"
+          class="block text-black hover:text-white px-4 py-2 bg-gray-100 rounded"
+        >
+          Beranda
+        </a>
+        <a
+          href="service.html"
+          class="block text-black hover:text-white px-4 py-2 bg-gray-100 rounded"
+        >
+          Layanan
+        </a>
+        <a
+          href="Harga.html"
+          class="block text-black hover:text-white px-4 py-2 bg-gray-100 rounded"
+        >
+          Harga
+        </a>
+        <a
+          href="#contact"
+          class="block bg-orange-400 text-white text-center px-4 py-2 rounded"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+    <section
+      class="bg-cover bg-center h-[350px] bg-blue-700 bg-opacity-60 relative"
+      style="
+        background-image: url('../image/bg1.jpg');
+        background-blend-mode: multiply;
+      "
+    >
+      <div
+        class="flex items-center justify-start text-left text-white h-full pl-28"
+      >
+        <div class="p-6 rounded-lg">
+          <h2 class="text-4xl font-bold mb-4">Layanan</h2>
+          <p class="text-lg mb-14">Osklin Home Cleaning Service Surabaya</p>
+        </div>
+      </div>
+      <svg
+        class="absolute bottom-0 left-0 w-full"
+        viewBox="0 0 1440 150"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,0 C480,120 960,0 1440,100 L1440,150 L0,150 Z"
+        ></path>
+      </svg>
+    </section>
+    <section class="bg-white py-16 px-4 md:px-16">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
+        <div class="md:w-1/3">
+          <h4 class="text-sm text-blue-700 font-semibold mb-2 uppercase">
+            Service
+          </h4>
+          <h2 class="text-3xl font-bold mb-4 leading-snug">
+            Layanan<br />Jasa Cleaning Service Kami
+          </h2>
+          <p class="text-gray-600">
+            Osklin Home Cleaning Service Surabaya Pasuruan merupakan perusahaan
+            jasa kebersihan online berbasis website yang bisa dipesan secara
+            online. Hubungi call center kami melalui WhatsApp di website.
+          </p>
+        </div>
+
+        <div class="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Rumah Harian
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Rumah Pasca Renovasi
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Kantor
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Apartemen
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Kost
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Pabrik dan Gudang
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Cuci Sofa
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Cuci Karpet
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Cuci Springbed
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Cuci Jok Mobil
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Cuci Kursi Kantor
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Poles Lantai
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="h-4 w-4 bg-blue-700 rounded-full mt-1"></div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                Jasa Bersih Kamar Mandi / Salon Kamar Mandi
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <footer class="bg-gray-800 py-4">
+      <div class="container mx-auto text-center text-white">
+        <p>
+          OsKlin.ComAuthor Landing Page | Dikembangkan Oleh Rara ThemeDitenagai
+          oleh WordPress
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+</html>
